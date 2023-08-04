@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;500&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+    background-color: #e1e1e1;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    background-image: linear-gradient(#071536, #3b60a4);
+    padding: 20px 0;
+    color: white;
+    filter: drop-shadow(0px 5px 5px #000000b3);
+}
+
+#statDiv,
+#msgDiv {
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 1px solid #cbcdd5;
+    ;
+    margin: 30px auto;
+    text-align: center;
+    padding: 18px;
+    color: #777;
+}
+
+#statDiv span {
+    color: #368cdf;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 200;
+}
+
+button {
+    padding: 10px 18px;
+    background-color: #1dba11;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    margin: 10px 5px;
+    color: white;
+}
+
+button:hover {
+    background-color: #2cd320;
+    cursor: pointer;
+}
+
+button:nth-of-type(1) {
+    background-color: #368cdf;
+    margin: 10px 45px 10px 5px;
+}
+
+button:nth-of-type(1):hover {
+    background-color: #45a1f8;
+}
+
+input {
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.tableDiv {
+    float: left;
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .tableDiv {
+        width: 100%;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto 30px auto;
+    position: relative;
+    font-weight: 300;
+}
+
+table img {
+    margin-right: 8px;
+}
+
+table th:nth-of-type(2) {
+    max-width: 120px;
+}
+
+table thead tr {
+    height: 60px;
+}
+
+.tr1 {
+    background-color: #4f86c6;
+}
+
+.tr2 {
+    background-color: chocolate;
+}
+
+.tr3 {
+    background-color: #835fa0;
+}
+
+table thead th {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+table td,
+table th {
+    padding-left: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #ddd;
+}

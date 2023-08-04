@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Kola - World Population Stat</title>
+</head>
+
+<body>
+    <header>
+        <h1>World Population Stat</h1>
+        <form id="form" action="">
+            <button type="button" id="showAllBtn">Show All</button>
+            <span> Or Search: </span><input id="inputText" type="text" placeholder="Enter Country">
+            <button type="button" id="searchBtn">Search</button>
+        </form>
+    </header>
+
+    <div id="msgDiv">Please Enter Country and then press "Search".</div>
+    <div class="container" id="mainDataDiv" style="display: none;">
+        <div id="statDiv">
+            <!--  -->
+        </div>
+
+        <div class="tableDiv">
+            <table>
+                <thead>
+                    <tr class="tr1">
+                        <th>Country</th>
+                        <th>Citizens</th>
+                    </tr>
+                </thead>
+                <tbody id="countriesTableDiv">
+                    <!--  -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="tableDiv">
+            <table>
+                <thead>
+                    <tr class="tr2">
+                        <th>Region</th>
+                        <th>Counties</th>
+                    </tr>
+                </thead>
+                <tbody id="regionsTableDiv">
+                    <!--  -->
+                </tbody>
+            </table>
+
+            <table>
+                <thead>
+                    <tr class="tr3">
+                        <th>Currency</th>
+                        <th>Counties</th>
+                    </tr>
+                </thead>
+                <tbody id="currenciesTableDiv">
+                    <!--  -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
